@@ -8,6 +8,7 @@ const Post = props => {
 
             <img src = {props.image} alt = {props.name}/>
             <div className="likes">
+                <button onClick = {props.onClick}>Like!</button>
                 <p> Cantidad de likes: {props.likes} </p>
             </div>
         </section>
